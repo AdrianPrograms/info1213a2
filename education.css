@@ -1,0 +1,126 @@
+* {
+  font-family: Courier, sans-serif, monospace;
+  /* border: 1px solid white; */
+
+}
+
+
+.eduContainer {
+  padding: 10px 50px 100px 50px;
+}
+
+/* =============== Nav Bar =============== */
+
+.navbar {
+  padding: 0 0 20px;
+}
+
+nav .navbar-brand {
+  font-size: 24px;
+}
+
+nav .nav-link {
+  font-size: 18px;
+}
+
+.slash, #slash {
+  color: yellow;
+}
+
+
+/* =============== Introduction =============== */
+
+.row1 {
+  margin-top: 50px;
+
+}
+
+.display-4 {
+  font-weight: bold;
+}
+
+hr {
+  border-top: 2px solid yellow;
+}
+
+.jumbotron {
+  background-color: transparent;
+  color: white;
+}
+
+.jumbotron p {
+  font-size: 20px;
+}
+
+
+#eduInfo {
+  background-image: url("https://i.imgur.com/NbdMDiG.jpg");
+
+}
+
+ /* ================================= certifications =========================== */
+
+#certifications {
+  background-color: #262626;
+}
+
+#certifications h2 {
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.seal {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.certCont h3 {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.certCont h5 {
+  color: white;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* ==================================== feedback ======================================= */
+
+#userform {
+  background-color: #141414;
+
+}
+
+#userform h2 {
+  color: white;
+  text-align: center;
+  padding: 35px;
+}
+
+/* ================= Footer ================= */
+#footer {
+  background-color: #141414;
+}
+
+#footerTitle {
+  padding-top: 35px;
+  color: white;
+  text-align: center;
+}
+
+#inputDialogue {
+  color: white;
+}
+
+.contact {
+  text-align: center;
+
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
