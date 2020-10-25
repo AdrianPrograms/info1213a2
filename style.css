@@ -1,0 +1,136 @@
+* {
+  font-family: Courier, sans-serif, monospace;
+   /* This is just a debugger to check for margins and paddings. */
+  /* border: 1px solid white; */
+
+}
+
+.introContainer {
+  padding: 10px 50px 100px 50px;
+}
+
+/* =============== Nav Bar =============== */
+
+.navbar {
+  padding: 0 0 20px;
+}
+
+nav .navbar-brand {
+  font-size: 24px;
+}
+
+nav .nav-link {
+  font-size: 18px;
+}
+
+.slash, #slash {
+  color: yellow;
+}
+
+
+/* =============== Introduction =============== */
+
+.row1 {
+  margin-top: 50px;
+
+}
+
+#introduction {
+  background-color: #262626;
+
+}
+
+#introduction h1, h3 {
+  color: white;
+
+}
+
+.profilePic {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* =============== Skills ================*/
+.skillContainer {
+  padding: 70px 50px 100px 50px;
+  background-color: #141414;
+}
+
+.skillsDescription {
+  border-left: 3.5px solid gray;
+}
+
+#accordion {
+  margin-top: 35px;
+}
+
+
+#skillSection {
+  background-color: #141414;
+}
+
+#skillSection h2, h3, h4, h5 {
+  color: white;
+}
+
+/* ================ Programming Languages experience =================== */
+
+#progCards {
+  background-image:  url("https://i.imgur.com/BoRCuK0.jpg");
+  background-color: #262626;
+  padding-top: 50px;
+}
+
+#progCards h2 {
+
+  color: white;
+  font-weight: bold;
+}
+
+.progContainer {
+  padding: 20px 50px 100px 50px;
+
+}
+
+.progContainer h2 {
+  text-align: center;
+}
+
+.card-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+/* ================= Footer ================= */
+#footer {
+  background-color: #141414;
+}
+
+#footerTitle {
+  padding-top: 35px;
+  color: white;
+  text-align: center;
+}
+
+#inputDialogue {
+  color: white;
+}
+
+.contact {
+  text-align: center;
+
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
