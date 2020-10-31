@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
    <title> Javascript Calculator </title>
-
 </head>
 <body>
   <header><h1> Calculator with Forms/JavaScript </h1></header>
@@ -14,38 +13,38 @@
 
 
     <!-- x input -->
-		<input type="text" value="0" name="x" id="x">
+    <input type="text" value="0" name="x" id="x">
 
     <!-- operations -->
-		<select name="operation" id="operation">
-			<option value="+">+</option>
-			<option value="-">-</option>
-      <option value="*">*</option>
-			<option value="/">/</option>
-		</select>
+    <select name="operation" id="operation">
+	<option value="+">+</option>
+	<option value="-">-</option>
+	<option value="*">*</option>
+	<option value="/">/</option>
+    </select>
 
     <!-- y input -->
-		<input type="text" value="0" name="y" id="y">
+    <input type="text" value="0" name="y" id="y">
 
     <!-- calculate the problem -->
-		<input type="button" value="=" name="getResult" id="getResult" onClick="calculate()">
+    <input type="button" value="=" name="getResult" id="getResult" onClick="calculate()">
 
-		<input type="text" value="0" name="Result" id="Result"> <br>
-		<br><br>
-		<input type="button" value="reset" name="reset" id="reset" onClick="clearAll()">
-		<br><br>
+    <input type="text" value="0" name="Result" id="Result"> <br>
+    <br><br>
+    <input type="button" value="reset" name="reset" id="reset" onClick="clearAll()">
+    <br><br>
 
     <!-- background changer -->
-		<select name="mybgcolor" id="mybgcolor" onChange="changeColor()">
-			<option value="red">Red</option>
-			<option value="yellow">Yellow</option>
-			<option value="blue">Blue</option>
-		</select>
+    <select name="mybgcolor" id="mybgcolor" onChange="changeColor()">
+	<option value="red">Red</option>
+	<option value="yellow">Yellow</option>
+	<option value="blue">Blue</option>
+    </select>
 
-	</p>
-	</form>
+</p>
+</form>
 
-  <script src="calculatorScript.js"></script>
+ <script src="calculatorScript.js"></script>
 
 </body>
 </html>
